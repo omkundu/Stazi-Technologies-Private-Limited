@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
 const Footer = ({ currentPage, setCurrentPage }) => {
+
     const navigate = useNavigate();
+    
     const totalPages = 10;
 
     // Function to handle previous page navigation on click of button
